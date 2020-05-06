@@ -13,6 +13,7 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(array)
+  puts array
   array.each { |i| puts array[i]}
 end
 
