@@ -14,10 +14,10 @@ end
 
 def output_array(array)
   puts array
-  array.each { |i| puts array[i]}
+  array.each { |i| puts i}
 end
 
 def return_string_array(array)
-  array.each! { |i| array[i].to_s }
+  array.each! { |i| i.to_s }
   array
 end
