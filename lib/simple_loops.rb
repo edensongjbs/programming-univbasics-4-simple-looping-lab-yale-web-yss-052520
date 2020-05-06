@@ -17,6 +17,5 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.each_index { |i| array[i]=array[i].to_s }
-  array
+  array.collect { |i| i.to_s }
 end
